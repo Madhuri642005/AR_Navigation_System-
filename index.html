@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Vision Guide</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>👁️ AI Vision Guide — Mobile & Desktop</h2>
+    <div class="video-container">
+      <img src="{{ url_for('video') }}" alt="Live Video">
+    </div>
+    <p id="status">AI Vision system active... detecting and guiding.</p>
+  </div>
+</body>
+</html>

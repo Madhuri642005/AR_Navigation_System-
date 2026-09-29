@@ -1,0 +1,6 @@
+flask
+ultralytics
+opencv-python
+pyttsx3
+sounddevice
+numpy
